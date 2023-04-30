@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "account-transactions"
+version = "0.1.0"
+description = ""
+authors = ["JackQweata <dahil3@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "account_transactions"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
